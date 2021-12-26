@@ -5,43 +5,91 @@
 }
 
 body {
-    background-color: lightblue;
     display: flex;
     font-family: 'Roboto', sans-serif;
 }
 
 #nav-bar {
-    background-color: lightcyan;
-    padding: 2rem;
+    background-color: rgb(61, 78, 78);
+    padding: 1px;
     text-align: left;
     position: fixed;
     min-width: 250px;
-    border-right: solid;
-    border-width: thin;
-    border-color: gray;
+    height: 100%;
+    overflow: scroll;
 
 }
 
 #nav-bar > header {
     font-size: 30px;
-    margin-bottom: 40px;
-    background-color: lightpink;
+    margin: 20px 10px 20px 10px;
+    background-color: rgb(61, 78, 78);
+    color: whitesmoke;
 }
 
 #nav-bar > ul {
     height: 100%;
     line-height: 2.5;
-}
-
-#nav-bar > li {
-    background-color: white;
-    border-top: 1px solid;
-    border-color: gray;
-    width: 100%;
     list-style: none;
+    background-color:rgb(61, 78, 78);
+    padding: 0px;
+    font-size: 16px;
+    display: grid;
+    align-items: center;
 }
 
 .nav-link {
-    background-color: lightgray;
-    
+    background-color: rgb(90, 105, 105);
+    height: 100%;
+    display: grid;
+    padding-left: 1.5rem;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(211, 215, 221);
+}
+
+a:hover {
+    color:rgb(61, 78, 78);
+}
+
+#main-doc {
+    background-color: rgb(186, 191, 191);
+    margin-left: 16.7rem;
+}
+
+.main-section {
+    padding: 2rem;
+    margin: 2rem;
+    line-height: 1.8;
+}
+
+header {
+    background-color:  rgb(90, 105, 105);
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: thin;
+    padding: 0.5rem;
+}
+
+article {
+    padding: 0 4rem 0 4rem;
+}
+
+article > p {
+    margin-bottom: 1.5rem;
+}
+
+article > ul > li {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+code {
+    width: 100%;
+}
+
