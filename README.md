@@ -37,5 +37,5 @@ Eu usei lorem ipsum para alcançar os resultados. O conteúdo é todo falso, com
 
 O principal objetivo é praticar o conteúdo visto no curso e alcançar a solução necessária para ir para a próxima etapa.
 
-### MY SOLUTION
+### MINHA SOLUÇÃO
 ![my desktop solution of the freecodecamp number four project from the responsive web design course: uma página de documentação técnica sobre javascript](BC_technical_page.png)
